@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+table{
+	border: 2px solid black;
+	border-collapse:collapse;
+}
+th,td{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+th:nth-of-type(1){
+	width:100px;
+}
+th:nth-of-type(2){
+	width:250px;
+}
+th:nth-of-type(3){
+	width:150px;
+}
+.nav{
+	padding:5px;
+	margin:5px;
+}
+
